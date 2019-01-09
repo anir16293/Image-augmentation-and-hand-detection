@@ -1,0 +1,3 @@
+Contains a python code to load, view, randomly augment and detect a human hand in an image.
+The random augmentations included are random crops, scaling, brightness, shear, rotations, salt-pepper noise, translations, flips.
+The hand detection algorithm is an ensemble of skin color thresholding (in the HSV color regime) and Haar cascade classifiers.
